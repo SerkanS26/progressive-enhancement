@@ -1,0 +1,131 @@
+body{
+  width: 90%;
+  margin: 5% auto;
+  background: linear-gradient(to left, #e66465, #9198e5);
+  background-image: url(https://ak.picdn.net/shutterstock/videos/1021391785/thumb/12.jpg);
+  background-repeat: none;
+  background-position: right bottom;
+  background-size: cover;
+  position: relative;
+}
+
+p {
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #295939;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover{
+  color: red;
+}
+
+figure{
+  padding: 15px;
+  margin: 10px;
+}
+
+img{
+  width: 400px;
+  border-radius: 10px;
+
+
+}
+.header {
+  width: 45%;
+  margin: 7px auto;
+  background-color: rgba(255, 0, 0, 0.1);
+  float: left;
+}
+
+.preamble{
+  width: 45%;
+  margin: 5px auto;
+  background-color: rgba(250, 0, 0, 0.3);
+
+}
+.story{
+  width: 45%;
+  margin: 5px auto;
+  background-color: rgba(252, 0, 0, 0.2);
+}
+.table{
+  width: 45%;
+  margin: 5px auto;
+  background-color: rgba(252, 0, 0, 0.4);
+}
+.neighbors{
+  border-left: 5px dotted yellow ;
+}
+
+.farmer{
+  border-left: 5px dotted orange;
+}
+.good{
+  text-transform: capitalize;
+  color: green;
+}
+.bad{
+  text-transform: capitalize;
+  color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.notification{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: grey;
+  width: 300px;
+  padding: 15px ;
+  opacity: 0.8;
+}
+
+aside p{
+  color: orange;
+  font-family: Lobster;
+  font-style: bold;
+  font-size: 30px;
+
+}
+nav{
+  background-color: yellow;
+  width: 70%;
+  margin: auto;
+}
+
+button{
+  background-color: gold;
+  padding: 7px;
+  margin: 20px;
+}
+
+q {
+  font-size: 160%;
+  background-color: lightgrey;
+  border-left: 3px dashed ;
+  padding: 0px 30px;
+  margin: 80px 0;
+}
+table,th,td{
+  border: 1px dotted gold;
+  width: 100%;
+
+}
